@@ -382,10 +382,21 @@
     
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+<script >
+var sonido = new Audio();
+sonido.src="sonido.mp3";
+
+</script>
+
+	<button class="contact100-form-btn" id="enviar" onmousedown="sonido.play()">
+						¿Te gustó la página?
+					</button>
+
 <audio controls autoplay>
 	<source src="Cumbia.mp3" type="audio/mp3">
 <audio>
- <audio id="scrollaudio" ><source src="audio/11.m4a" type="audio/mpeg"><source src="audio/11.ogg" type="audio/ogg"><source src="audio/a.mp3" type="audio/mpeg"></audio>
+	
     
 </body>
 </html>
